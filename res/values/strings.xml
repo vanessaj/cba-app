@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">cbaApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="bankName">La banque canadienne de l\'agriculture</string>
+    <string name="accname">numero de compte</string>
+    <string name="pw">mot de passe</string>
+    <string name="logoDescription">money bag</string>
+    <string name="loginButton">Connecter</string>
+
+    <color name="txt">#FFFFFF</color>
+    <color name="bkg">#C2E9F2</color>
+    <color name="txt_bkg">#FFFFFF</color>
+
+    <string name="title_activity_account_overview">AccountOverview</string>
+    <string name="accounts">Comptes</string>
+    <string name="cheq">Chèques</string>
+    <string name="saving">Épargnes</string>
+    <string name="borr">Emprunt</string>
+
+    <color name="darkButton">#4DB9D1</color>
+
+    <string name="cheqAmount">764.67$</string>
+    <string name="savingAmount">6243.21$</string>
+    <string name="borrAmount">87.60$</string>
+    <string name="title_activity_transactions">Transactions</string>
+    <string name="title_activity_bills">Bills</string>
+    <string name="title_activity_etransfer">ETransfer</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_account_transfer">AccountTransfer</string>
+    <string name="bills">Payer factures</string>
+    <string name="receiver">Recepteur</string>
+    <string name="combien">Combien</string>
+    <string name="amountHint">$ Combien d\'argent</string>
+    <string name="confirm">Confirmer</string>
+    <string name="transfer">Transférer l\'argent</string>
+    <string name="fromAccount">Du compte</string>
+    <string name="toAccount">Compte de destination</string>
+    <string name="messages">Messages</string>
+    <string name="settings">Paramètres</string>
+    <string name="langs">Lanuges</string>
+    <string name="recmsgs">Recevez les messages</string>
+    <string name="close">Les surcusales la plus proches</string>
+    <string name="etransfer">Enovyer l\'argent aux autres</string>
+    <string name="etran_receiver">Courriel de recevoir</string>
+    <string name="emailHint">personne@exemple.com</string>
+    <string name="etran_account_from">Du compte</string>
+    
+    
+    
+	<string-array name="bills_array">
+	   <item>University of Ottawa - Universite d\'Ottawa</item>
+	    <item>VISA</item>
+	    <item>Rogers</item>
+	</string-array>
+	
+	<string-array name="accounts_array">
+	   <item>Chèques</item>
+	    <item>Épargnes</item>
+	    <item>Emprunt</item>
+	</string-array>
+	
+	<string-array name="langs_array">
+	   <item>English</item>
+	    <item>Français</item>
+	</string-array>
+	<string name="etran_q">Question secret (pour le destinaire)</string>
+	<string name="etran_q_hint">Ex: Quel est le nom de mon chat?</string>
+	<string name="etran_r">Réponse</string>
+	<string name="etran_r_hint">Ex: Robert</string>
+	<string name="action_accounts">Comptes</string>
+	<string name="action_bills">Factures</string>
+	<string name="action_transfer">Transférer</string>
+	<string name="action_etransfer">E-Transférer</string>
+	<string name="action_messages">Messages</string>
+	<string name="action_msettings">Paramètres</string>
+	<string name="action_maps">Succursales bancaires</string>
+	<string name="action_logout">Déconnecter</string>
+	<string name="cba"></string>
+	<string name="mot">mot de passe</string>
+	<color name="navy">#191970</color>
+	<string name="msgtitle1">Message 1</string>
+	<string name="msg1">Memini incidere admodum admodum odio familiares hemicyclio erat amantissime una is multa et Q qui querella profecto familiares</string>
+	<string name="msgtitle2">Message 2</string>
+	<string name="msg2">Vel hominum P quanta quanta Pompeio qui</string>
+	<string name="msgtitle3">Message 3</string>
+	<string name="msg3">Odio vixerat erat una una utebare familiares magis et et pauci ut multum</string>
+	<string name="msgtitle4">Message 4</string>
+	<string name="msg4">Tum querella dissideret capitali multa memini erat tum memini quanta is querella</string>
+	
+
+
+</resources>

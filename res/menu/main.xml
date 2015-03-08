@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/action_accounts"
+          android:icon="@drawable/dollar183"
+          android:title="@string/action_accounts"
+          android:showAsAction="ifRoom"  />
+	
+	<item android:id="@+id/action_bills"
+          android:icon="@drawable/shopping242"
+          android:title="@string/action_bills"
+          android:showAsAction="ifRoom"  />
+	
+	<item android:id="@+id/action_transfer"
+          android:icon="@drawable/document178"
+          android:title="@string/action_transfer"
+          android:showAsAction="ifRoom"  />
+	
+	<item android:id="@+id/action_etransfer"
+          android:icon="@drawable/user166"
+          android:title="@string/action_etransfer"
+          android:showAsAction="ifRoom"  />
+	
+	<item android:id="@+id/action_messages"
+          android:icon="@drawable/envelope49"
+          android:title="@string/action_messages"
+          android:showAsAction="ifRoom"  />
+	
+	<item android:id="@+id/action_settings"
+          android:icon="@drawable/settings58"
+          android:title="@string/action_msettings"
+          android:showAsAction="ifRoom"  />
+	
+	<item android:id="@+id/action_map"
+          android:icon="@drawable/bank11"
+          android:title="@string/action_maps"
+          android:showAsAction="never"  />
+	
+	<item android:id="@+id/action_logout"
+          android:icon="@drawable/shutdown2"
+          android:title="@string/action_logout"
+          android:showAsAction="ifRoom"  />
+	
+	
+</menu>

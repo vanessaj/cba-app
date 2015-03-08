@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.cbaapp.ETransfer" >
+
+    <TextView
+        android:id="@+id/etransferTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkButton"
+        android:textColor="@color/txt"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/etransfer" />
+    
+    <!-- account, destination, secret Q, answer -->
+    
+    <TextView
+        android:id="@+id/etran_account"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/etran_account_from" />
+    
+    <Spinner 
+        android:id="@+id/etran_bills_spinner"
+   		android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginBottom="20dp"
+        />
+    
+    
+    <TextView
+        android:id="@+id/etran_rec"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/etran_receiver" />
+    
+    <EditText 
+        android:id="@+id/etran_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailHint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+ 		android:padding="5dp"
+ 		android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        />
+    
+    <TextView
+        android:id="@+id/etran_q"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/etran_q" />
+    
+    <EditText 
+        android:id="@+id/etran_q_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/etran_q_hint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+ 		android:padding="5dp"
+ 		android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        />
+    
+    <TextView
+        android:id="@+id/etran_r"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/etran_r" />
+    
+    <EditText 
+        android:id="@+id/etran_r_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/etran_r_hint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+ 		android:padding="5dp"
+ 		android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        />
+    
+    <TextView
+        android:id="@+id/amountEtrans"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/combien" />
+    
+    <EditText 
+        android:id="@+id/amountInputETrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/amountHint"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rounded_corner"
+ 		android:padding="5dp"
+ 		android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        />
+    
+    <Button 
+        android:id="@+id/confirmButtonETrans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/confirm"
+        android:textColor="@color/txt"
+        android:textSize="36sp"
+        android:background="@drawable/rounded_button"
+        android:textStyle="bold"
+        android:onClick="etranClick"
+        />
+
+</LinearLayout>

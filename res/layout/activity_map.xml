@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.cbaapp.Map" >
+
+    <TextView
+        android:id="@+id/maptitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkButton"
+        android:textColor="@color/txt"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:padding="5dp"
+        android:text="@string/close" />
+    
+    <TextView
+        android:id="@+id/loc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:text="1. 141 Ave O Laurier" />
+    
+    <TextView
+        android:id="@+id/loc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:text="2. 111 Rue Cooper" />
+    
+    <TextView
+        android:id="@+id/loc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:text="3. 801 Ave King Edward" />
+    
+    <!-- <fragment 
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:id="@+id/mapFrag"
+        android:name="com.google.android.gms.maps.MapFragment"
+        /> -->
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/map"/>
+
+</LinearLayout>

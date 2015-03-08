@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+	        android:id="@+id/accounts"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@color/darkButton"
+	        android:textColor="@color/txt"
+	        android:textStyle="bold"
+	        android:textSize="36sp"
+	        android:padding="5dp"
+	        android:text="@string/saving" />
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <TextView
+        android:id="@+id/cn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="Dépôt" />
+	    
+	    <TextView
+        android:id="@+id/cd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="Nov. 20, 2014" />
+	    </RelativeLayout>
+
+	
+	<TextView
+        android:id="@+id/ca1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="250.00$" />
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/bkg">
+	    <TextView
+        android:id="@+id/cn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="Dépôt" />
+	    
+	    <TextView
+        android:id="@+id/cd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="Nov. 10, 2014" />
+	    </RelativeLayout>
+
+	
+	<TextView
+        android:id="@+id/ca2"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="100.00$" />
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <TextView
+        android:id="@+id/cn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="Dépôt" />
+	    
+	    <TextView
+        android:id="@+id/cd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="Nov. 1, 2014" />
+	    </RelativeLayout>
+
+	
+	<TextView
+        android:id="@+id/ca3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="360.00$" />
+	
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/bkg">
+	    <TextView
+        android:id="@+id/cn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:text="Dépôt" />
+	    
+	    <TextView
+        android:id="@+id/cd4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="Oct. 20, 2014" />
+	    </RelativeLayout>
+
+	
+	<TextView
+        android:id="@+id/ca4"
+        android:background="@color/bkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="25.00$" />
+
+</LinearLayout>

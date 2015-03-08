@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cbaapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bca"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBaF_rqdF7ap4lVmzrjoCAbh3LolomyIpI" /> -->
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".LoginPage"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".AccountOverview"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Transactions"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Bills"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".ETransfer"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Messages"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Settings"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".Map"
+            android:label="@string/cba" >
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.Light"
+            android:name=".AccountTransfer"
+            android:label="@string/cba" >
+        </activity>
+    </application>
+
+</manifest>

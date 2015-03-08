@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.cbaapp.AccountOverview" >
+
+    <TextView
+        android:id="@+id/accounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/darkButton"
+        android:textColor="@color/txt"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:padding="5dp"
+        android:text="@string/accounts" />
+    
+    <Button 
+        android:id="@+id/cheqTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bkg"
+        android:gravity="start|center_vertical"
+        android:text="@string/cheq"
+        android:textSize="24sp"
+        android:onClick="cheqHistory"
+        />
+    
+    <TextView
+        android:id="@+id/cheqAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/cheqAmount" />
+    
+    <Button
+        android:id="@+id/savingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bkg"
+        android:gravity="start|center_vertical"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:text="@string/saving"
+        android:onClick="savingsHistory" />
+    
+    <TextView
+        android:id="@+id/savingAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_marginBottom="10dp"
+        android:textSize="24sp"
+        android:paddingBottom="5dp"
+        android:text="@string/savingAmount" />
+        
+    <Button
+        android:id="@+id/borrTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:padding="3dp"
+        android:textSize="24sp"
+        android:background="@color/bkg"
+        android:text="@string/borr"
+        android:onClick="borrowHistory" />
+    
+    <TextView
+        android:id="@+id/borrAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:paddingBottom="5dp"
+        android:text="@string/borrAmount" />
+
+</LinearLayout>
